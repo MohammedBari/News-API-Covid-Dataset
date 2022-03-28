@@ -10,7 +10,6 @@ from wordcloud import WordCloud
 from string import punctuation
 from collections import Counter
 
-
 nlp_eng = en_core_web_lg.load()
 newsapi = NewsApiClient(api_key='3b1062ec54d547d684e6cce12a35958b')
 dados = []
